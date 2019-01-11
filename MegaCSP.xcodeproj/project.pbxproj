@@ -12,6 +12,7 @@
 		959ECEE221DFB55700FB9FFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 959ECEE021DFB55700FB9FFB /* Main.storyboard */; };
 		959ECEE421DFB55A00FB9FFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 959ECEE321DFB55A00FB9FFB /* Assets.xcassets */; };
 		959ECEE721DFB55A00FB9FFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 959ECEE521DFB55A00FB9FFB /* LaunchScreen.storyboard */; };
+		95E91CA921E7A56D00F0E960 /* ImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E91CA821E7A56D00F0E960 /* ImpactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		959ECF0421DFC5A000FB9FFB /* BucketItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItemCell.swift; sourceTree = "<group>"; };
 		959ECF0521DFC5A000FB9FFB /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		959ECF0721DFC5B300FB9FFB /* AbstractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionViewController.swift; sourceTree = "<group>"; };
+		95E91CA821E7A56D00F0E960 /* ImpactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImpactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		959ECEF121DFC21200FB9FFB /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				95E91CA721E7A54D00F0E960 /* Impact Project */,
 				959ECEFE21DFC54B00FB9FFB /* Creativity Project */,
 				959ECF0121DFC57200FB9FFB /* Algorithm Project */,
 				959ECF0621DFC5B300FB9FFB /* Abstraction Project */,
@@ -138,6 +141,14 @@
 				959ECF0721DFC5B300FB9FFB /* AbstractionViewController.swift */,
 			);
 			path = "Abstraction Project";
+			sourceTree = "<group>";
+		};
+		95E91CA721E7A54D00F0E960 /* Impact Project */ = {
+			isa = PBXGroup;
+			children = (
+				95E91CA821E7A56D00F0E960 /* ImpactViewController.swift */,
+			);
+			path = "Impact Project";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				959ECEDF21DFB55700FB9FFB /* ViewController.swift in Sources */,
+				95E91CA921E7A56D00F0E960 /* ImpactViewController.swift in Sources */,
 				959ECEDD21DFB55700FB9FFB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
